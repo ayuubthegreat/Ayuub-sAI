@@ -2,7 +2,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import Home from './pages/home.jsx'
 import Login from './pages/login.jsx'
 import Register from './pages/register.jsx'
-import Navbar from `./components/navbar.jsx`
+import Navbar from './components/navbar.jsx'
 import './App.css'
 import { useEffect } from 'react'
 import { useSelector } from 'react-redux'
