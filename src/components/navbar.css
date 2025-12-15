@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    max-width: 1280px;
+    padding: 1rem 2rem;
+    display: flex;
+    background-color: green;
+    color: black;
+    gap: 10px;
+}
+.nav-brand {
+    color: black;
+    font-weight: bold;
+}
+.nav-actions {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-left: 1vh;
+}
+.home-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
